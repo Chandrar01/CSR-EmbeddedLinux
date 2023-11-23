@@ -1,0 +1,9 @@
+[Unit]
+Description=hello World Service
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/hello-bash-service.sh
+
+[Install]
+WantedBy=multi-user.target
