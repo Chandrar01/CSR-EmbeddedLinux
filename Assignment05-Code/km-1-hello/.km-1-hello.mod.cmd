@@ -1,0 +1,1 @@
+cmd_/home/cxr1020/Documents/EmbeddedLinuxRepo/CSR-EmbeddedLinux/Assignment05-Code/km-1-hello/km-1-hello.mod := printf '%s\n'   km-1-hello.o | awk '!x[$$0]++ { print("/home/cxr1020/Documents/EmbeddedLinuxRepo/CSR-EmbeddedLinux/Assignment05-Code/km-1-hello/"$$0) }' > /home/cxr1020/Documents/EmbeddedLinuxRepo/CSR-EmbeddedLinux/Assignment05-Code/km-1-hello/km-1-hello.mod
